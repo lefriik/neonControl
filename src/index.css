@@ -66,6 +66,9 @@ header h1 {
     width: 95%;
     margin: 0 auto;
     padding: 10rem 0;
+    
+    
+    
 }
 @media (min-width: 768px) {
     .formulario {
@@ -88,6 +91,7 @@ header h1 {
     display: grid;
     margin-bottom: 2rem;
     width: 100%;
+    
 }
 
 .formulario label {
@@ -361,6 +365,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
+    
 }
 .modal .cerrar-modal {
     position: absolute;
@@ -375,11 +380,13 @@ main {
 
 .modal .formulario {
     max-width: 80rem;
-    width: 70%;
+    width: 50%;
     transition-property: all;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
     opacity: 0;
+    
+    
 }
 
 
@@ -392,8 +399,11 @@ body .modal {
 }
 
 .modal .formulario.animar {
+    
     position: relative;
     opacity: 1;
+    padding-top: 2rem;
+    
 }
 
 .modal .formulario.cerrar {
